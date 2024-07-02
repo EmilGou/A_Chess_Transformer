@@ -1,1 +1,1 @@
-# Transformer-Chess-Model
+# Transformer Chess Model
