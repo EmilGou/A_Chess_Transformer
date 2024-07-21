@@ -1,1 +1,1 @@
-# Transformer Chess Model
+# A Chess Transformer
