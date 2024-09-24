@@ -10,7 +10,7 @@ The dataset consists of 26,701,685 half-moves, the FEN description of the board 
 
 The dataset contains two tables: data and encoded_data. The data table contains the raw FEN sequences, moves, and outcome of each game. The encoded_data contains the encoded FENs after applying a transformation, encoded moves, and outcome of each game. 
 
--**lichess_elite_dataset.h5** 
+- **`Lichess_Elite_Dataset.h5`** 
     - **data**
         - fen
         - move
