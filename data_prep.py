@@ -2,6 +2,7 @@
 
 import tables as tb
 from tqdm import tqdm
+from uci_moves import UCI_MOVES
 import os
 
 def prepare_data(
