@@ -15,6 +15,8 @@ def get_vocab() -> dict:
 
     vocab = {token: i for i, token in enumerate(vocab_list)}
 
+    return vocab
+
 def fen_transform(fen):
     fen_split = fen.split(" ")
 
