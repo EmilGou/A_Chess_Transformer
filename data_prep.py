@@ -88,6 +88,7 @@ def prepare_data(
                 moves = all_moves[j].split("\n")
                 result = moves.pop(-1)
                 moves = [move.lower() for move in moves]
+                moves.append("<end>")
                 encoded_moves = [UCI_MOVES[move] for move in moves]
                 fens = all_fens[j].split("\n")
                 transformed_fens = [fen_transform(fen) for fen in fens]
