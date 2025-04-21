@@ -1,7 +1,7 @@
 #Adapted from https://github.com/sgrvinod/chess-transformers/blob/main/chess_transformers/data/prep.py
 
-# import tables as tb
-# from tqdm import tqdm
+import tables as tb
+from tqdm import tqdm
 from .uci_moves import UCI_MOVES
 import os
 
@@ -84,7 +84,6 @@ def prepare_data(
                 moves = all_moves[j].split("\n")
                 result = moves.pop(-1)
                 moves = [move.lower() for move in moves]
-                moves.append("<end>")
                 encoded_moves = [UCI_MOVES[move] for move in moves]
                 fens = all_fens[j].split("\n")
                 transformed_fens = [fen_transform(fen) for fen in fens]
