@@ -1,7 +1,7 @@
 #Adapted from https://github.com/sgrvinod/chess-transformers/blob/main/chess_transformers/data/prep.py
 
-# import tables as tb
-# from tqdm import tqdm
+import tables as tb
+from tqdm import tqdm
 from .uci_moves import UCI_MOVES
 import os
 
