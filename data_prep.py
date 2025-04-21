@@ -3,6 +3,8 @@
 import tables as tb
 from tqdm import tqdm
 from .uci_moves import UCI_MOVES
+from .utils import fen_transform, get_vocab
+from .tokenizer import Tokenizer
 import os
 
 def prepare_data(
@@ -11,7 +13,9 @@ def prepare_data(
     val_split_fraction=None,
     overwrite=False,
 ):
-
+    # instantiate tokenizer
+    tokenizer = Tokenizer(get_vocab())
+    print("Tokenizer initialized.\n")
     # Get names of files/chunks containing moves and FENs
     moves_files = sorted([f for f in os.listdir(data_folder) if f.endswith(".moves")])
     fens_files = sorted([f for f in os.listdir(data_folder) if f.endswith(".fens")])
