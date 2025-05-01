@@ -21,3 +21,12 @@ The dataset contains two tables: data and encoded_data. The data table contains 
         - encoded_fen
         - encoded_move
         - outcome
+
+## Evaluations
+
+### Legal move Accuracy
+
+Results are achieved from testing the model checkpoints on one randomly samples position from 1000 games. The samples are the same across all of the checkpoints. Top-k sampling is used with k = 10. 
+
+![accuracies](./Assets/legalacc_seed=666_topk=10_v1.png)
+
