@@ -30,7 +30,7 @@ Results are achieved from testing the model checkpoints on one randomly samples 
 
 ![accuracies](./Assets/legalacc_seed=666_topk=10_v1.png)
 
-The distribution of mistakes broken down by piece type across various epochs:
+The distribution of mistakes broken down by piece type across various checkpoints:
 
 ![mistakes](./Assets/mistakes_epochs_pieces_topk=10_v1.png)
 
