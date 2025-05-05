@@ -46,8 +46,9 @@ Below are the results of the estimated elo differences between the v1 model and 
 
 ![EloDiff](./Assets/elo_vs_fairystockfish_v1_topk=10_alpha=30.png)
 
+Detailed metrics across all levels
 
-|   level |   games |   wins |   losses |   draws | elo_delta         |   win_ratios |   likelihood_of_superiorities |
+|   Level |   Games |   Wins |   Losses |   Draws | Elo $\Delta$         |   Win Ratios |   Likelihood of Superiorities |
 |---------|---------|--------|----------|---------|-------------------|--------------|-------------------------------|
 |       1 |     200 |    129 |        0 |      73 | 262.60 (+-39.24)  |    0.819307  |                             1 |
 |       2 |     200 |     88 |        2 |     112 | 157.97 (+-30.20)  |    0.712871  |                             1 |
