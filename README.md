@@ -36,6 +36,14 @@ The distribution of mistakes broken down by piece type across various checkpoint
 
 ### Model vs Fairy-Stockfish
 
+Below are the results of the estimated elo differences between the v1 model and various levels of fairy-stockfish. The estimated elos for each level of fairy-stockfish, according to a random user on the Lichess forum, are:
+
+- Level 1: under 400
+- Level 2: 500
+- Level 3: 800
+- Level 4: 1100
+
+
 ![EloDiff](./Assets/elo_vs_fairystockfish_v1_topk=10_alpha=30.png)
 
 
