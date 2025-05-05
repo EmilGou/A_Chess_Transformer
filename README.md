@@ -34,3 +34,16 @@ The distribution of mistakes broken down by piece type across various checkpoint
 
 ![mistakes](./Assets/mistakes_epochs_pieces_topk=10_v1.png)
 
+### Model vs Fairy-Stockfish
+
+![EloDiff](./Assets/elo_vs_fairystockfish_v1_topk=10_alpha=30.png)
+
+
+|   level |   games |   wins |   losses |   draws | elo_delta         |   win_ratios |   likelihood_of_superiorities |
+|---------|---------|--------|----------|---------|-------------------|--------------|-------------------------------|
+|       1 |     200 |    129 |        0 |      73 | 262.60 (+-39.24)  |    0.819307  |                             1 |
+|       2 |     200 |     88 |        2 |     112 | 157.97 (+-30.20)  |    0.712871  |                             1 |
+|       3 |     200 |      2 |      148 |      52 | -317.36 (+-47.84) |    0.138614  |                             0 |
+|       4 |     200 |      1 |      180 |      21 | -487.68 (+-78.48) |    0.0569307 |                             0 |
+
+
